@@ -1,4 +1,4 @@
 <?php
-define ('BASE_URL','http://localhost/dnshop/');
+define ('BASE_URL','https://phamdanhnghia22.github.io/Danhnghiashop/');
 
 ?>
