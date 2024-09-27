@@ -1,8 +1,1 @@
-RewriteEngine on 
-
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-l
-
-RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
-php_flag output_buffering on
+<?php echo "Hello "?>
